@@ -16,7 +16,6 @@ DPATH="/home/zyf/dev/sudoku-master/build/tmp"
 DSRCPATH="/Users/gzsw/workspace/zyf/andy/WebHelp"
 
 #cp -rf "$SPATH" "$DPATH"
-#echo "Before: "
 #cd $SPATH/$lan.lproj/WebHelp/
 
 # 读取文件内容
