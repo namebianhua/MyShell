@@ -19,7 +19,6 @@ DSRCPATH="/Users/gzsw/workspace/zyf/andy/WebHelp"
 #echo "Before: "
 #cd $SPATH/$lan.lproj/WebHelp/
 
-#echo "Before:"
 # 读取文件内容
 while IFS='|' read -r lan before after;
 do
