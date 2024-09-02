@@ -1,0 +1,1486 @@
+Jun  7 08:15:26 iMac-2 syslogd[126]: ASL Sender Statistics
+Jun  7 08:15:28 iMac-2 loginwindow[163]: client 0x60000298adc0: phaseName = "loginwindow Boot" is done
+Jun  7 08:15:28 iMac-2 loginwindow[163]: ISAP: Done with Phase "loginwindow Boot"
+Jun  7 08:15:29 iMac-2 loginwindow[163]: Calling completion handler for 0x60000298adc0
+Jun  7 08:15:29 iMac-2 loginwindow[163]: client 0x60000298adc0: phaseName = "loginwindow Boot" is already done
+Jun  7 08:15:29 iMac-2 loginwindow[163]: client 0x60000298adc0: phaseName = "loginwindow Boot", hide progress UI called
+Jun  7 08:15:29 iMac-2 loginwindow[163]: ISAP: hide progress UI called
+Jun  7 08:15:29 iMac-2 loginwindow[163]: client 0x60000298adc0: phaseName = "loginwindow Boot" is being released
+Jun  7 08:15:29 iMac-2 loginwindow[163]: Releasing Connection
+Jun  7 08:15:34 iMac-2 loginwindow[163]: The connection was interrupted, calling interruption handlers
+Jun  7 08:16:24 iMac-2 loginwindow[163]: There is still an active connection
+Jun  7 08:16:59 --- last message repeated 1 time ---
+Jun  7 08:25:40 iMac-2 syslogd[126]: ASL Sender Statistics
+Jun  7 08:35:46 iMac-2 syslogd[126]: ASL Sender Statistics
+Jun  7 08:46:16 iMac-2 syslogd[126]: ASL Sender Statistics
+Jun  7 08:58:31 iMac-2 syslogd[126]: ASL Sender Statistics
+Jun  7 09:09:21 iMac-2 syslogd[126]: ASL Sender Statistics
+Jun  7 09:20:38 iMac-2 syslogd[126]: ASL Sender Statistics
+Jun  7 09:31:23 iMac-2 syslogd[126]: ASL Sender Statistics
+Jun  7 09:46:47 iMac-2 syslogd[126]: ASL Sender Statistics
+Jun  7 09:56:47 iMac-2 syslogd[126]: ASL Sender Statistics
+Jun  7 10:13:19 iMac-2 syslogd[126]: ASL Sender Statistics
+Jun  7 10:24:29 iMac-2 syslogd[126]: ASL Sender Statistics
+Jun  7 10:34:33 localhost bootlog[0]: BOOT_TIME 1717727673 0
+Jun  7 10:34:38 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.cdscheduler" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun  7 10:34:38 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.install" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun  7 10:34:38 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.authd" sharing output destination "/var/log/asl" with ASL Module "com.apple.asl".
+	Output parameters from ASL Module "com.apple.asl" override any specified in ASL Module "com.apple.authd".
+Jun  7 10:34:38 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.authd" sharing output destination "/var/log/system.log" with ASL Module "com.apple.asl".
+	Output parameters from ASL Module "com.apple.asl" override any specified in ASL Module "com.apple.authd".
+Jun  7 10:34:38 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.authd" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun  7 10:34:38 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.eventmonitor" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun  7 10:34:38 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.mail" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun  7 10:34:38 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.performance" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun  7 10:34:38 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.iokit.power" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun  7 10:34:38 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.contacts.ContactsAutocomplete" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun  7 10:34:38 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.mkb" sharing output destination "/private/var/log/keybagd.log" with ASL Module "com.apple.mkb.internal".
+	Output parameters from ASL Module "com.apple.mkb.internal" override any specified in ASL Module "com.apple.mkb".
+Jun  7 10:34:38 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.mkb" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun  7 10:34:38 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.MessageTracer" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun  7 10:34:38 localhost syslogd[126]: ASL Sender Statistics
+Jun  7 10:34:56 iMac-2 loginwindow[171]: Clearing phase info
+Jun  7 10:34:56 iMac-2 loginwindow[171]: calling progress app remoteObjectProxy
+Jun  7 10:34:56 iMac-2 loginwindow[171]: Creating connection
+Jun  7 10:34:56 iMac-2 loginwindow[171]: Connection = 0x600002960280, callers = (
+	    "<IASUPCaller: 0x600001a605d0>"
+	)
+Jun  7 10:34:56 iMac-2 loginwindow[171]: version = 2
+Jun  7 10:34:56 iMac-2 loginwindow[171]: isModernOS = 1
+Jun  7 10:34:56 iMac-2 loginwindow[171]: Add phase named "IOKit Boot", progress 33.886719, delayInSeconds 0
+Jun  7 10:34:56 iMac-2 loginwindow[171]: Add phase named "loginwindow Boot", progress 66.113281, delayInSeconds -1
+Jun  7 10:34:56 iMac-2 loginwindow[171]: Connection = 0x600002960280, callers = (
+	    "<IASUPCaller: 0x600001a605d0>",
+	    "<IASUPCaller: 0x600001a60670>"
+	)
+Jun  7 10:34:56 iMac-2 loginwindow[171]: client 0x600000d733c0: phaseName = "loginwindow Boot", registering connection
+Jun  7 10:34:56 iMac-2 loginwindow[171]: client 0x600000d733c0: phaseName = "loginwindow Boot" was created
+Jun  7 10:34:56 iMac-2 loginwindow[171]: Connection = 0x600002960280, callers = (
+	    "<IASUPCaller: 0x600001a605d0>",
+	    "<IASUPCaller: 0x600001a60670>",
+	    "<IASUPCaller: 0x600001a60680>"
+	)
+Jun  7 10:34:56 iMac-2 loginwindow[171]: client 0x600000d73540: phaseName = "IOKit Boot", registering connection
+Jun  7 10:34:56 iMac-2 loginwindow[171]: client 0x600000d73540: phaseName = "IOKit Boot" was created
+Jun  7 10:34:56 iMac-2 loginwindow[171]: client 0x600000d73540: phaseName = "IOKit Boot", show progress UI called
+Jun  7 10:34:56 iMac-2 loginwindow[171]: ISAP: Show progress UI called
+Jun  7 10:34:56 iMac-2 loginwindow[171]: client 0x600000d73540: phaseName = "IOKit Boot" is done
+Jun  7 10:34:56 iMac-2 loginwindow[171]: ISAP: Done with Phase "IOKit Boot"
+Jun  7 10:34:56 iMac-2 loginwindow[171]: client 0x600000d73540: phaseName = "IOKit Boot" is being released
+Jun  7 10:34:56 iMac-2 loginwindow[171]: Releasing Connection
+Jun  7 10:34:56 iMac-2 loginwindow[171]: client 0x600000d733c0: handler = 0x60000164a4f0
+Jun  7 10:34:56 iMac-2 loginwindow[171]: USER_PROCESS: 171 console
+Jun  7 10:35:00 iMac-2 loginwindow[171]: client 0x600000d733c0: phaseName = "loginwindow Boot" is done
+Jun  7 10:35:00 iMac-2 loginwindow[171]: ISAP: Done with Phase "loginwindow Boot"
+Jun  7 10:35:01 iMac-2 loginwindow[171]: Calling completion handler for 0x600000d733c0
+Jun  7 10:35:01 iMac-2 loginwindow[171]: client 0x600000d733c0: phaseName = "loginwindow Boot" is already done
+Jun  7 10:35:01 iMac-2 loginwindow[171]: client 0x600000d733c0: phaseName = "loginwindow Boot", hide progress UI called
+Jun  7 10:35:01 iMac-2 loginwindow[171]: ISAP: hide progress UI called
+Jun  7 10:35:01 iMac-2 loginwindow[171]: client 0x600000d733c0: phaseName = "loginwindow Boot" is being released
+Jun  7 10:35:01 iMac-2 loginwindow[171]: Releasing Connection
+Jun  7 10:35:06 iMac-2 loginwindow[171]: The connection was interrupted, calling interruption handlers
+Jun  7 10:35:56 iMac-2 loginwindow[171]: There is still an active connection
+Jun  7 10:36:31 --- last message repeated 1 time ---
+Jun  7 10:46:50 iMac-2 syslogd[126]: ASL Sender Statistics
+Jun  7 10:56:12 localhost bootlog[0]: BOOT_TIME 1717728972 0
+Jun  7 10:56:17 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.cdscheduler" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun  7 10:56:17 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.install" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun  7 10:56:17 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.authd" sharing output destination "/var/log/asl" with ASL Module "com.apple.asl".
+	Output parameters from ASL Module "com.apple.asl" override any specified in ASL Module "com.apple.authd".
+Jun  7 10:56:17 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.authd" sharing output destination "/var/log/system.log" with ASL Module "com.apple.asl".
+	Output parameters from ASL Module "com.apple.asl" override any specified in ASL Module "com.apple.authd".
+Jun  7 10:56:17 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.authd" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun  7 10:56:17 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.eventmonitor" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun  7 10:56:17 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.mail" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun  7 10:56:17 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.performance" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun  7 10:56:17 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.iokit.power" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun  7 10:56:17 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.contacts.ContactsAutocomplete" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun  7 10:56:17 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.mkb" sharing output destination "/private/var/log/keybagd.log" with ASL Module "com.apple.mkb.internal".
+	Output parameters from ASL Module "com.apple.mkb.internal" override any specified in ASL Module "com.apple.mkb".
+Jun  7 10:56:17 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.mkb" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun  7 10:56:17 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.MessageTracer" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun  7 10:56:17 localhost syslogd[126]: ASL Sender Statistics
+Jun  7 10:56:35 iMac-2 loginwindow[169]: Clearing phase info
+Jun  7 10:56:35 iMac-2 loginwindow[169]: calling progress app remoteObjectProxy
+Jun  7 10:56:35 iMac-2 loginwindow[169]: Creating connection
+Jun  7 10:56:35 iMac-2 loginwindow[169]: Connection = 0x600003fd1680, callers = (
+	    "<IASUPCaller: 0x600000cd84a0>"
+	)
+Jun  7 10:56:35 iMac-2 loginwindow[169]: version = 2
+Jun  7 10:56:35 iMac-2 loginwindow[169]: isModernOS = 1
+Jun  7 10:56:35 iMac-2 loginwindow[169]: Add phase named "IOKit Boot", progress 33.886719, delayInSeconds 0
+Jun  7 10:56:35 iMac-2 loginwindow[169]: Add phase named "loginwindow Boot", progress 66.113281, delayInSeconds -1
+Jun  7 10:56:35 iMac-2 loginwindow[169]: Connection = 0x600003fd1680, callers = (
+	    "<IASUPCaller: 0x600000cd84a0>",
+	    "<IASUPCaller: 0x600000cc0a70>"
+	)
+Jun  7 10:56:35 iMac-2 loginwindow[169]: client 0x600001bf3340: phaseName = "loginwindow Boot", registering connection
+Jun  7 10:56:35 iMac-2 loginwindow[169]: client 0x600001bf3340: phaseName = "loginwindow Boot" was created
+Jun  7 10:56:35 iMac-2 loginwindow[169]: Connection = 0x600003fd1680, callers = (
+	    "<IASUPCaller: 0x600000cd84a0>",
+	    "<IASUPCaller: 0x600000cc0a70>",
+	    "<IASUPCaller: 0x600000cc0a90>"
+	)
+Jun  7 10:56:35 iMac-2 loginwindow[169]: client 0x600001bf31c0: phaseName = "IOKit Boot", registering connection
+Jun  7 10:56:35 iMac-2 loginwindow[169]: client 0x600001bf31c0: phaseName = "IOKit Boot" was created
+Jun  7 10:56:35 iMac-2 loginwindow[169]: client 0x600001bf31c0: phaseName = "IOKit Boot", show progress UI called
+Jun  7 10:56:35 iMac-2 loginwindow[169]: ISAP: Show progress UI called
+Jun  7 10:56:35 iMac-2 loginwindow[169]: client 0x600001bf31c0: phaseName = "IOKit Boot" is done
+Jun  7 10:56:35 iMac-2 loginwindow[169]: ISAP: Done with Phase "IOKit Boot"
+Jun  7 10:56:35 iMac-2 loginwindow[169]: client 0x600001bf31c0: phaseName = "IOKit Boot" is being released
+Jun  7 10:56:35 iMac-2 loginwindow[169]: Releasing Connection
+Jun  7 10:56:35 iMac-2 loginwindow[169]: client 0x600001bf3340: handler = 0x6000000f2af0
+Jun  7 10:56:35 iMac-2 loginwindow[169]: USER_PROCESS: 169 console
+Jun  7 10:56:41 iMac-2 loginwindow[169]: client 0x600001bf3340: phaseName = "loginwindow Boot" is done
+Jun  7 10:56:41 iMac-2 loginwindow[169]: ISAP: Done with Phase "loginwindow Boot"
+Jun  7 10:56:42 iMac-2 loginwindow[169]: Calling completion handler for 0x600001bf3340
+Jun  7 10:56:42 iMac-2 loginwindow[169]: client 0x600001bf3340: phaseName = "loginwindow Boot" is already done
+Jun  7 10:56:42 iMac-2 loginwindow[169]: client 0x600001bf3340: phaseName = "loginwindow Boot", hide progress UI called
+Jun  7 10:56:42 iMac-2 loginwindow[169]: ISAP: hide progress UI called
+Jun  7 10:56:42 iMac-2 loginwindow[169]: client 0x600001bf3340: phaseName = "loginwindow Boot" is being released
+Jun  7 10:56:42 iMac-2 loginwindow[169]: Releasing Connection
+Jun  7 10:56:47 iMac-2 loginwindow[169]: The connection was interrupted, calling interruption handlers
+Jun  7 10:57:36 iMac-2 loginwindow[169]: There is still an active connection
+Jun  7 10:58:12 --- last message repeated 1 time ---
+Jun  7 11:11:05 localhost bootlog[0]: BOOT_TIME 1717729865 0
+Jun  7 11:11:10 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.cdscheduler" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun  7 11:11:10 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.install" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun  7 11:11:10 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.authd" sharing output destination "/var/log/asl" with ASL Module "com.apple.asl".
+	Output parameters from ASL Module "com.apple.asl" override any specified in ASL Module "com.apple.authd".
+Jun  7 11:11:10 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.authd" sharing output destination "/var/log/system.log" with ASL Module "com.apple.asl".
+	Output parameters from ASL Module "com.apple.asl" override any specified in ASL Module "com.apple.authd".
+Jun  7 11:11:10 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.authd" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun  7 11:11:10 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.eventmonitor" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun  7 11:11:10 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.mail" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun  7 11:11:10 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.performance" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun  7 11:11:10 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.iokit.power" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun  7 11:11:10 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.contacts.ContactsAutocomplete" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun  7 11:11:10 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.mkb" sharing output destination "/private/var/log/keybagd.log" with ASL Module "com.apple.mkb.internal".
+	Output parameters from ASL Module "com.apple.mkb.internal" override any specified in ASL Module "com.apple.mkb".
+Jun  7 11:11:10 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.mkb" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun  7 11:11:10 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.MessageTracer" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun  7 11:11:10 localhost syslogd[126]: ASL Sender Statistics
+Jun  7 11:11:28 iMac-2 loginwindow[163]: Clearing phase info
+Jun  7 11:11:28 iMac-2 loginwindow[163]: calling progress app remoteObjectProxy
+Jun  7 11:11:28 iMac-2 loginwindow[163]: Creating connection
+Jun  7 11:11:28 iMac-2 loginwindow[163]: Connection = 0x600000df9360, callers = (
+	    "<IASUPCaller: 0x600003ee0450>"
+	)
+Jun  7 11:11:28 iMac-2 loginwindow[163]: version = 2
+Jun  7 11:11:28 iMac-2 loginwindow[163]: isModernOS = 1
+Jun  7 11:11:28 iMac-2 loginwindow[163]: Add phase named "IOKit Boot", progress 33.886719, delayInSeconds 0
+Jun  7 11:11:28 iMac-2 loginwindow[163]: Add phase named "loginwindow Boot", progress 66.113281, delayInSeconds -1
+Jun  7 11:11:28 iMac-2 loginwindow[163]: Connection = 0x600000df9360, callers = (
+	    "<IASUPCaller: 0x600003ee0450>",
+	    "<IASUPCaller: 0x600003ef43c0>"
+	)
+Jun  7 11:11:28 iMac-2 loginwindow[163]: client 0x6000029feb00: phaseName = "loginwindow Boot", registering connection
+Jun  7 11:11:28 iMac-2 loginwindow[163]: client 0x6000029feb00: phaseName = "loginwindow Boot" was created
+Jun  7 11:11:28 iMac-2 loginwindow[163]: Connection = 0x600000df9360, callers = (
+	    "<IASUPCaller: 0x600003ee0450>",
+	    "<IASUPCaller: 0x600003ef43c0>",
+	    "<IASUPCaller: 0x600003ef43d0>"
+	)
+Jun  7 11:11:28 iMac-2 loginwindow[163]: client 0x6000029fe400: phaseName = "IOKit Boot", registering connection
+Jun  7 11:11:28 iMac-2 loginwindow[163]: client 0x6000029fe400: phaseName = "IOKit Boot" was created
+Jun  7 11:11:28 iMac-2 loginwindow[163]: client 0x6000029fe400: phaseName = "IOKit Boot", show progress UI called
+Jun  7 11:11:28 iMac-2 loginwindow[163]: ISAP: Show progress UI called
+Jun  7 11:11:28 iMac-2 loginwindow[163]: client 0x6000029fe400: phaseName = "IOKit Boot" is done
+Jun  7 11:11:28 iMac-2 loginwindow[163]: ISAP: Done with Phase "IOKit Boot"
+Jun  7 11:11:28 iMac-2 loginwindow[163]: client 0x6000029fe400: phaseName = "IOKit Boot" is being released
+Jun  7 11:11:28 iMac-2 loginwindow[163]: Releasing Connection
+Jun  7 11:11:28 iMac-2 loginwindow[163]: client 0x6000029feb00: handler = 0x6000032dcc90
+Jun  7 11:11:28 iMac-2 loginwindow[163]: USER_PROCESS: 163 console
+Jun  7 11:11:32 iMac-2 loginwindow[163]: client 0x6000029feb00: phaseName = "loginwindow Boot" is done
+Jun  7 11:11:32 iMac-2 loginwindow[163]: ISAP: Done with Phase "loginwindow Boot"
+Jun  7 11:11:33 iMac-2 loginwindow[163]: Calling completion handler for 0x6000029feb00
+Jun  7 11:11:33 iMac-2 loginwindow[163]: client 0x6000029feb00: phaseName = "loginwindow Boot" is already done
+Jun  7 11:11:33 iMac-2 loginwindow[163]: client 0x6000029feb00: phaseName = "loginwindow Boot", hide progress UI called
+Jun  7 11:11:33 iMac-2 loginwindow[163]: ISAP: hide progress UI called
+Jun  7 11:11:33 iMac-2 loginwindow[163]: client 0x6000029feb00: phaseName = "loginwindow Boot" is being released
+Jun  7 11:11:33 iMac-2 loginwindow[163]: Releasing Connection
+Jun  7 11:11:38 iMac-2 loginwindow[163]: The connection was interrupted, calling interruption handlers
+Jun  7 11:12:28 iMac-2 loginwindow[163]: There is still an active connection
+Jun  7 11:13:03 --- last message repeated 1 time ---
+Jun  7 11:23:10 iMac-2 syslogd[126]: ASL Sender Statistics
+Jun  7 11:34:13 iMac-2 syslogd[126]: ASL Sender Statistics
+Jun  7 11:37:00 iMac-2 login[1076]: USER_PROCESS: 1076 ttys000
+Jun  7 11:42:26 iMac-2 WifiConfig[1125]: nextPressed-deviceNoFound
+Jun  7 11:43:34 iMac-2 WifiConfig[1125]: nextPressed-deviceNoFound
+Jun  7 11:44:04 --- last message repeated 9 times ---
+Jun  7 11:44:04 iMac-2 WifiConfig[1125]: nextPressed-deviceNoFound
+Jun  7 11:50:46 iMac-2 syslogd[126]: ASL Sender Statistics
+Jun  7 12:01:10 iMac-2 syslogd[126]: ASL Sender Statistics
+Jun  7 12:11:12 iMac-2 syslogd[126]: ASL Sender Statistics
+Jun  7 12:21:21 iMac-2 syslogd[126]: ASL Sender Statistics
+Jun  7 12:31:28 iMac-2 syslogd[126]: ASL Sender Statistics
+Jun  7 12:42:11 iMac-2 syslogd[126]: ASL Sender Statistics
+Jun  7 12:52:13 iMac-2 syslogd[126]: ASL Sender Statistics
+Jun  7 12:58:54 iMac-2 awdd[306]: Diagnostics Report
+Jun  7 13:02:23 iMac-2 syslogd[126]: ASL Sender Statistics
+Jun  7 13:12:28 iMac-2 syslogd[126]: ASL Sender Statistics
+Jun  7 13:23:51 iMac-2 syslogd[126]: ASL Sender Statistics
+Jun  7 13:35:10 iMac-2 syslogd[126]: ASL Sender Statistics
+Jun  7 13:40:14 iMac-2 AdobeReader[3438]: ARM Framework Log: Starting updater process for product with registration plist com.adobe.reader.dc
+Jun  7 13:40:14 iMac-2 AdobeReader[3438]: ARM Framework Log: The Updater application has been verified
+Jun  7 13:40:14 iMac-2 AdobeReader[3438]: ARM Framework Log: Checking updates for the product
+Jun  7 13:40:14 iMac-2 AdobeReader[3438]: The return code after checking for updates is 1
+Jun  7 13:40:14 iMac-2 AdobeReader[3438]: ARM Framework Log: Starting updater process for product with registration plist com.adobe.reader.dc
+Jun  7 13:40:14 iMac-2 AdobeReader[3438]: ARM Framework Log: The Updater application has been verified
+Jun  7 13:40:14 iMac-2 AdobeReader[3438]: ARM Framework Log: Checking updates for the product
+Jun  7 13:40:14 iMac-2 AdobeReader[3438]: ARM Framework Log: ARM Helper exit with status 0
+Jun  7 13:40:14 iMac-2 AdobeReader[3438]: ARM Framework Log: Check for updates has been completed. The status returned is 0
+Jun  7 13:46:17 iMac-2 syslogd[126]: ASL Sender Statistics
+Jun  7 13:55:11 iMac-2 login[1076]: DEAD_PROCESS: 1076 ttys000
+Jun  7 13:55:12 iMac-2 sessionlogoutd[3759]: DEAD_PROCESS: 163 console
+Jun  7 13:55:13 iMac-2 loginwindow[3767]: USER_PROCESS: 3767 console
+Jun  7 13:55:13 iMac-2 reboot[3781]: SHUTDOWN_TIME: 1717739713 587947
+Jun  7 13:56:58 localhost bootlog[0]: BOOT_TIME 1717739818 0
+Jun  7 13:57:03 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.cdscheduler" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun  7 13:57:03 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.install" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun  7 13:57:03 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.authd" sharing output destination "/var/log/asl" with ASL Module "com.apple.asl".
+	Output parameters from ASL Module "com.apple.asl" override any specified in ASL Module "com.apple.authd".
+Jun  7 13:57:03 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.authd" sharing output destination "/var/log/system.log" with ASL Module "com.apple.asl".
+	Output parameters from ASL Module "com.apple.asl" override any specified in ASL Module "com.apple.authd".
+Jun  7 13:57:03 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.authd" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun  7 13:57:03 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.eventmonitor" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun  7 13:57:03 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.mail" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun  7 13:57:03 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.performance" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun  7 13:57:03 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.iokit.power" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun  7 13:57:03 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.contacts.ContactsAutocomplete" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun  7 13:57:03 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.mkb" sharing output destination "/private/var/log/keybagd.log" with ASL Module "com.apple.mkb.internal".
+	Output parameters from ASL Module "com.apple.mkb.internal" override any specified in ASL Module "com.apple.mkb".
+Jun  7 13:57:03 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.mkb" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun  7 13:57:03 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.MessageTracer" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun  7 13:57:03 localhost syslogd[126]: ASL Sender Statistics
+Jun  7 13:57:21 iMac-2 loginwindow[187]: Clearing phase info
+Jun  7 13:57:21 iMac-2 loginwindow[187]: calling progress app remoteObjectProxy
+Jun  7 13:57:21 iMac-2 loginwindow[187]: Creating connection
+Jun  7 13:57:21 iMac-2 loginwindow[187]: Connection = 0x60000137c280, callers = (
+	    "<IASUPCaller: 0x60000207c480>"
+	)
+Jun  7 13:57:21 iMac-2 loginwindow[187]: version = 2
+Jun  7 13:57:21 iMac-2 loginwindow[187]: isModernOS = 1
+Jun  7 13:57:21 iMac-2 loginwindow[187]: Add phase named "IOKit Boot", progress 33.886719, delayInSeconds 0
+Jun  7 13:57:21 iMac-2 loginwindow[187]: Add phase named "loginwindow Boot", progress 66.113281, delayInSeconds -1
+Jun  7 13:57:21 iMac-2 loginwindow[187]: Connection = 0x60000137c280, callers = (
+	    "<IASUPCaller: 0x60000207c480>",
+	    "<IASUPCaller: 0x6000020747c0>"
+	)
+Jun  7 13:57:21 iMac-2 loginwindow[187]: client 0x60000377f180: phaseName = "loginwindow Boot", registering connection
+Jun  7 13:57:21 iMac-2 loginwindow[187]: client 0x60000377f180: phaseName = "loginwindow Boot" was created
+Jun  7 13:57:21 iMac-2 loginwindow[187]: Connection = 0x60000137c280, callers = (
+	    "<IASUPCaller: 0x60000207c480>",
+	    "<IASUPCaller: 0x6000020747c0>",
+	    "<IASUPCaller: 0x600002074890>"
+	)
+Jun  7 13:57:21 iMac-2 loginwindow[187]: client 0x60000377f240: phaseName = "IOKit Boot", registering connection
+Jun  7 13:57:21 iMac-2 loginwindow[187]: client 0x60000377f240: phaseName = "IOKit Boot" was created
+Jun  7 13:57:21 iMac-2 loginwindow[187]: client 0x60000377f240: phaseName = "IOKit Boot", show progress UI called
+Jun  7 13:57:21 iMac-2 loginwindow[187]: ISAP: Show progress UI called
+Jun  7 13:57:21 iMac-2 loginwindow[187]: client 0x60000377f240: phaseName = "IOKit Boot" is done
+Jun  7 13:57:21 iMac-2 loginwindow[187]: ISAP: Done with Phase "IOKit Boot"
+Jun  7 13:57:21 iMac-2 loginwindow[187]: client 0x60000377f240: phaseName = "IOKit Boot" is being released
+Jun  7 13:57:21 iMac-2 loginwindow[187]: Releasing Connection
+Jun  7 13:57:21 iMac-2 loginwindow[187]: client 0x60000377f180: handler = 0x600002c7eb20
+Jun  7 13:57:21 iMac-2 loginwindow[187]: USER_PROCESS: 187 console
+Jun  7 13:57:28 iMac-2 loginwindow[187]: client 0x60000377f180: phaseName = "loginwindow Boot" is done
+Jun  7 13:57:28 iMac-2 loginwindow[187]: ISAP: Done with Phase "loginwindow Boot"
+Jun  7 13:57:29 iMac-2 loginwindow[187]: Calling completion handler for 0x60000377f180
+Jun  7 13:57:29 iMac-2 loginwindow[187]: client 0x60000377f180: phaseName = "loginwindow Boot" is already done
+Jun  7 13:57:29 iMac-2 loginwindow[187]: client 0x60000377f180: phaseName = "loginwindow Boot", hide progress UI called
+Jun  7 13:57:29 iMac-2 loginwindow[187]: ISAP: hide progress UI called
+Jun  7 13:57:29 iMac-2 loginwindow[187]: client 0x60000377f180: phaseName = "loginwindow Boot" is being released
+Jun  7 13:57:29 iMac-2 loginwindow[187]: Releasing Connection
+Jun  7 13:57:33 iMac-2 login[584]: USER_PROCESS: 584 ttys000
+Jun  7 13:57:34 iMac-2 loginwindow[187]: The connection was interrupted, calling interruption handlers
+Jun  7 13:58:11 iMac-2 AdobeReader[402]: ARM Framework Log: Starting updater process for product with registration plist com.adobe.reader.dc
+Jun  7 13:58:11 iMac-2 AdobeReader[402]: ARM Framework Log: The Updater application has been verified
+Jun  7 13:58:11 iMac-2 AdobeReader[402]: ARM Framework Log: Checking updates for the product
+Jun  7 13:58:11 iMac-2 AdobeReader[402]: The return code after checking for updates is 1
+Jun  7 13:58:11 iMac-2 AdobeReader[402]: ARM Framework Log: Starting updater process for product with registration plist com.adobe.reader.dc
+Jun  7 13:58:11 iMac-2 AdobeReader[402]: ARM Framework Log: The Updater application has been verified
+Jun  7 13:58:11 iMac-2 AdobeReader[402]: ARM Framework Log: Checking updates for the product
+Jun  7 13:58:12 iMac-2 AdobeReader[402]: ARM Framework Log: ARM Helper exit with status 0
+Jun  7 13:58:12 iMac-2 AdobeReader[402]: ARM Framework Log: Check for updates has been completed. The status returned is 0
+Jun  7 13:58:21 iMac-2 loginwindow[187]: There is still an active connection
+Jun  7 13:58:59 --- last message repeated 1 time ---
+Jun  7 13:59:01 iMac-2 RootPrivileges[816]: Hello, World!:24
+Jun  7 13:59:01 iMac-2 RootPrivileges[816]: ****str:'hp'
+Jun  7 13:59:01 iMac-2 RootPrivileges[816]: remove 图标成功
+Jun  7 13:59:01 iMac-2 RootPrivileges[816]: ****str:'/Library/Printers/Pantum/Icons/pt2595.icns'
+Jun  7 13:59:01 iMac-2 RootPrivileges[816]: delet success
+Jun  7 13:59:01 iMac-2 RootPrivileges[816]: ****str:'/Library/Printers/Pantum/Icons/pt2500.icns'
+Jun  7 13:59:01 iMac-2 RootPrivileges[816]: delet success
+Jun  7 13:59:01 iMac-2 RootPrivileges[816]: ****str:'/Library/Printers/Pantum/Icons/pt2600.icns'
+Jun  7 13:59:01 iMac-2 RootPrivileges[816]: delet success
+Jun  7 13:59:01 iMac-2 RootPrivileges[816]: ****str:'/usr/libexec/cups/filter/pt2500Filter'
+Jun  7 13:59:01 iMac-2 RootPrivileges[816]: delet success
+Jun  7 13:59:01 iMac-2 RootPrivileges[816]: ****str:'/Library/Printers/PPDs/Contents/Resources/Pantum P2595 Series.ppd.gz'
+Jun  7 13:59:01 iMac-2 RootPrivileges[816]: delet success
+Jun  7 13:59:01 iMac-2 RootPrivileges[816]: ****str:'/Library/Printers/PPDs/Contents/Resources/Pantum-P2518-Series.ppd.gz'
+Jun  7 13:59:01 iMac-2 RootPrivileges[816]: delet success
+Jun  7 13:59:01 iMac-2 RootPrivileges[816]: ****str:'/Library/Printers/PPDs/Contents/Resources/Pantum-P2500-Series.ppd.gz'
+Jun  7 13:59:01 iMac-2 RootPrivileges[816]: delet success
+Jun  7 13:59:01 iMac-2 RootPrivileges[816]: ****str:'/Library/Printers/PPDs/Contents/Resources/Pantum-P2600-Series.ppd.gz'
+Jun  7 13:59:01 iMac-2 RootPrivileges[816]: delet success
+Jun  7 13:59:01 iMac-2 RootPrivileges[816]: ****str:'/Library/Printers/PPDs/Contents/Resources/Pantum-P2200-Series.ppd.gz'
+Jun  7 13:59:01 iMac-2 RootPrivileges[816]: delet success
+Jun  7 13:59:01 iMac-2 RootPrivileges[816]: ****str:'/Library/Printers/PPDs/Contents/Resources/Pantum-S2000-Series.ppd.gz'
+Jun  7 13:59:02 iMac-2 RootPrivileges[816]: delet success
+Jun  7 13:59:02 iMac-2 RootPrivileges[816]: ****str:'/Library/Printers/PPDs/Contents/Resources/Pantum P2518 Series.ppd.gz'
+Jun  7 13:59:02 iMac-2 RootPrivileges[816]: delet success
+Jun  7 13:59:02 iMac-2 RootPrivileges[816]: ****str:'/Library/Printers/PPDs/Contents/Resources/Pantum P2535 Series.ppd.gz'
+Jun  7 13:59:02 iMac-2 RootPrivileges[816]: delet success
+Jun  7 13:59:02 iMac-2 RootPrivileges[816]: ****str:'/Library/Printers/PPDs/Contents/Resources/Pantum P2200 Series.ppd.gz'
+Jun  7 13:59:02 iMac-2 RootPrivileges[816]: delet success
+Jun  7 13:59:02 iMac-2 RootPrivileges[816]: ****str:'/Library/Printers/PPDs/Contents/Resources/Pantum P2500 Series.ppd.gz'
+Jun  7 13:59:02 iMac-2 RootPrivileges[816]: delet success
+Jun  7 13:59:02 iMac-2 RootPrivileges[816]: ****str:'/Library/Printers/PPDs/Contents/Resources/Pantum P2600 Series.ppd.gz'
+Jun  7 13:59:02 iMac-2 RootPrivileges[816]: delet success
+Jun  7 13:59:02 iMac-2 RootPrivileges[816]: ****str:'/Library/Printers/PPDs/Contents/Resources/Pantum S2000 Series.ppd.gz'
+Jun  7 13:59:02 iMac-2 RootPrivileges[816]: delet success
+Jun  7 13:59:02 iMac-2 RootPrivileges[816]: ****str:'/Library/Printers/Pantum/Utilities/P2200_P2600/WifiConfig.app'
+Jun  7 13:59:02 iMac-2 RootPrivileges[816]: delet success
+Jun  7 13:59:02 iMac-2 RootPrivileges[816]: ****str:'/Library/Printers/Pantum/Utilities/P2200_P2600/Uninstall.app'
+Jun  7 13:59:02 iMac-2 RootPrivileges[816]: delet success
+Jun  7 13:59:02 iMac-2 RootPrivileges[816]: ****str:'/Library/Printers/Pantum/Utilities/P2200_P2600'
+Jun  7 13:59:02 iMac-2 RootPrivileges[816]: delet success
+Jun  7 13:59:02 iMac-2 RootPrivileges[816]: ****str:'/Applications/Pantum/Utilities/P2200_P2600/Wireless Network Configuration Tool.app'
+Jun  7 13:59:02 iMac-2 RootPrivileges[816]: delet success
+Jun  7 13:59:02 iMac-2 RootPrivileges[816]: ****str:'/Applications/Pantum/Utilities/P2200_P2600/Pantum Un-install Tool.app'
+Jun  7 13:59:02 iMac-2 RootPrivileges[816]: delet success
+Jun  7 13:59:02 iMac-2 RootPrivileges[816]: ****str:'/Applications/Pantum/Utilities/P2200_P2600'
+Jun  7 13:59:02 iMac-2 RootPrivileges[816]: delet success
+Jun  7 13:59:02 iMac-2 RootPrivileges[816]: delet /Applications/Pantum success
+Jun  7 13:59:02 iMac-2 RootPrivileges[816]: delet /Library/Printers/Pantum success
+Jun  7 13:59:02 iMac-2 RootPrivileges[816]: rootPrivileges lockPath :/Library/Printers/Pantum/Utilities/P2200_P2600/Uninstall.app/Contents/Resources/RootPrivileges,-1
+Jun  7 14:01:03 iMac-2 WifiConfig[1263]: nextPressed-deviceNoFound
+Jun  7 14:01:34 --- last message repeated 3 times ---
+Jun  7 14:02:40 iMac-2 login[584]: DEAD_PROCESS: 584 ttys000
+Jun  7 14:02:41 iMac-2 sessionlogoutd[1398]: DEAD_PROCESS: 187 console
+Jun  7 14:02:42 iMac-2 shutdown[1406]: SHUTDOWN_TIME: 1717740162 602482
+Jun  7 14:07:10 localhost bootlog[0]: BOOT_TIME 1717740430 0
+Jun  7 14:07:15 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.cdscheduler" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun  7 14:07:15 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.install" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun  7 14:07:15 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.authd" sharing output destination "/var/log/asl" with ASL Module "com.apple.asl".
+	Output parameters from ASL Module "com.apple.asl" override any specified in ASL Module "com.apple.authd".
+Jun  7 14:07:15 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.authd" sharing output destination "/var/log/system.log" with ASL Module "com.apple.asl".
+	Output parameters from ASL Module "com.apple.asl" override any specified in ASL Module "com.apple.authd".
+Jun  7 14:07:15 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.authd" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun  7 14:07:15 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.eventmonitor" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun  7 14:07:15 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.mail" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun  7 14:07:15 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.performance" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun  7 14:07:15 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.iokit.power" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun  7 14:07:15 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.contacts.ContactsAutocomplete" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun  7 14:07:15 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.mkb" sharing output destination "/private/var/log/keybagd.log" with ASL Module "com.apple.mkb.internal".
+	Output parameters from ASL Module "com.apple.mkb.internal" override any specified in ASL Module "com.apple.mkb".
+Jun  7 14:07:15 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.mkb" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun  7 14:07:15 localhost syslogd[126]: Configuration Notice:
+	ASL Module "com.apple.MessageTracer" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun  7 14:07:15 localhost syslogd[126]: ASL Sender Statistics
+Jun  7 14:07:33 iMac-2 loginwindow[168]: Clearing phase info
+Jun  7 14:07:33 iMac-2 loginwindow[168]: calling progress app remoteObjectProxy
+Jun  7 14:07:33 iMac-2 loginwindow[168]: Creating connection
+Jun  7 14:07:33 iMac-2 loginwindow[168]: Connection = 0x600002108780, callers = (
+	    "<IASUPCaller: 0x60000121c7e0>"
+	)
+Jun  7 14:07:33 iMac-2 loginwindow[168]: version = 2
+Jun  7 14:07:33 iMac-2 loginwindow[168]: isModernOS = 1
+Jun  7 14:07:33 iMac-2 loginwindow[168]: Add phase named "IOKit Boot", progress 33.886719, delayInSeconds 0
+Jun  7 14:07:33 iMac-2 loginwindow[168]: Add phase named "loginwindow Boot", progress 66.113281, delayInSeconds -1
+Jun  7 14:07:33 iMac-2 loginwindow[168]: Connection = 0x600002108780, callers = (
+	    "<IASUPCaller: 0x60000121c7e0>",
+	    "<IASUPCaller: 0x6000012108f0>"
+	)
+Jun  7 14:07:33 iMac-2 loginwindow[168]: client 0x60000052ee00: phaseName = "loginwindow Boot", registering connection
+Jun  7 14:07:33 iMac-2 loginwindow[168]: client 0x60000052ee00: phaseName = "loginwindow Boot" was created
+Jun  7 14:07:33 iMac-2 loginwindow[168]: Connection = 0x600002108780, callers = (
+	    "<IASUPCaller: 0x60000121c7e0>",
+	    "<IASUPCaller: 0x6000012108f0>",
+	    "<IASUPCaller: 0x600001210900>"
+	)
+Jun  7 14:07:33 iMac-2 loginwindow[168]: client 0x60000052f540: phaseName = "IOKit Boot", registering connection
+Jun  7 14:07:33 iMac-2 loginwindow[168]: client 0x60000052f540: phaseName = "IOKit Boot" was created
+Jun  7 14:07:33 iMac-2 loginwindow[168]: client 0x60000052f540: phaseName = "IOKit Boot", show progress UI called
+Jun  7 14:07:33 iMac-2 loginwindow[168]: ISAP: Show progress UI called
+Jun  7 14:07:33 iMac-2 loginwindow[168]: client 0x60000052f540: phaseName = "IOKit Boot" is done
+Jun  7 14:07:33 iMac-2 loginwindow[168]: ISAP: Done with Phase "IOKit Boot"
+Jun  7 14:07:33 iMac-2 loginwindow[168]: client 0x60000052f540: phaseName = "IOKit Boot" is being released
+Jun  7 14:07:33 iMac-2 loginwindow[168]: Releasing Connection
+Jun  7 14:07:33 iMac-2 loginwindow[168]: client 0x60000052ee00: handler = 0x600001e1d860
+Jun  7 14:07:33 iMac-2 loginwindow[168]: USER_PROCESS: 168 console
+Jun  7 14:07:36 iMac-2 login[471]: USER_PROCESS: 471 ttys000
+Jun  7 14:07:40 iMac-2 loginwindow[168]: client 0x60000052ee00: phaseName = "loginwindow Boot" is done
+Jun  7 14:07:40 iMac-2 loginwindow[168]: ISAP: Done with Phase "loginwindow Boot"
+Jun  7 14:07:41 iMac-2 loginwindow[168]: Calling completion handler for 0x60000052ee00
+Jun  7 14:07:41 iMac-2 loginwindow[168]: client 0x60000052ee00: phaseName = "loginwindow Boot" is already done
+Jun  7 14:07:41 iMac-2 loginwindow[168]: client 0x60000052ee00: phaseName = "loginwindow Boot", hide progress UI called
+Jun  7 14:07:41 iMac-2 loginwindow[168]: ISAP: hide progress UI called
+Jun  7 14:07:41 iMac-2 loginwindow[168]: client 0x60000052ee00: phaseName = "loginwindow Boot" is being released
+Jun  7 14:07:41 iMac-2 loginwindow[168]: Releasing Connection
+Jun  7 14:07:46 iMac-2 loginwindow[168]: The connection was interrupted, calling interruption handlers
+Jun  7 14:08:23 iMac-2 AdobeReader[417]: ARM Framework Log: Starting updater process for product with registration plist com.adobe.reader.dc
+Jun  7 14:08:23 iMac-2 AdobeReader[417]: ARM Framework Log: The Updater application has been verified
+Jun  7 14:08:23 iMac-2 AdobeReader[417]: ARM Framework Log: Checking updates for the product
+Jun  7 14:08:23 iMac-2 AdobeReader[417]: The return code after checking for updates is 1
+Jun  7 14:08:23 iMac-2 AdobeReader[417]: ARM Framework Log: Starting updater process for product with registration plist com.adobe.reader.dc
+Jun  7 14:08:23 iMac-2 AdobeReader[417]: ARM Framework Log: The Updater application has been verified
+Jun  7 14:08:23 iMac-2 AdobeReader[417]: ARM Framework Log: Checking updates for the product
+Jun  7 14:08:23 iMac-2 AdobeReader[417]: ARM Framework Log: ARM Helper exit with status 0
+Jun  7 14:08:23 iMac-2 AdobeReader[417]: ARM Framework Log: Check for updates has been completed. The status returned is 0
+Jun  7 14:08:33 iMac-2 loginwindow[168]: There is still an active connection
+Jun  7 14:09:11 --- last message repeated 1 time ---
+Jun  7 14:10:12 iMac-2 login[471]: DEAD_PROCESS: 471 ttys000
+Jun  7 14:13:37 iMac-2 USBMonitor-GM3310[1308]: -[USBMonitorAppDelegate _startListeningUSBDevices]
+Jun  7 14:13:37 iMac-2 USBMonitor-GM3310[1308]: DeviceAttach
+Jun  7 14:20:17 iMac-2 syslogd[126]: ASL Sender Statistics
+Jun  7 14:31:20 iMac-2 USBMonitor-GM3310[1308]: DeviceAttach
+Jun  7 14:31:20 iMac-2 syslogd[126]: ASL Sender Statistics
+Jun  7 14:31:20 iMac-2 USBMonitor-GM3310[1308]: argumentsArray:(
+	    ca30,
+	    232b,
+	    14400000
+	)
+Jun  7 14:31:20 iMac-2 USBMonitor-GM3310[1308]: monitor a  pushscanner in/Library/Printers/GG IMAGE/Agents/gm3310pushscan.app
+Jun  7 14:31:20 iMac-2 gm3310pushscan[1681]: argc = 4
+Jun  7 14:31:20 iMac-2 gm3310pushscan[1681]: argv[1] = 0xb4c30d0b argv[2] = 0xb4c30d10, argv[3] = 0xb4c30d15
+Jun  7 14:31:20 iMac-2 gm3310pushscan[1681]: _usbProductID = 0xca30 _usbVendorID = 0x232b, _usbLocationID = 0x14400000
+Jun  7 14:31:20 iMac-2 gm3310pushscan[1681]: -[PushScanner _startListeningUSBDevices]
+Jun  7 14:31:20 iMac-2 gm3310pushscan[1681]: enter OpenUSBDevice
+Jun  7 14:31:20 iMac-2 gm3310pushscan[1681]: deviceURI:usb://232b/ca30/14400000/SCAN
+Jun  7 14:31:20 iMac-2 gm3310pushscan[1681]: 1s...
+Jun  7 14:31:21 iMac-2 gm3310pushscan[1681]: 2s...
+Jun  7 14:31:22 iMac-2 gm3310pushscan[1681]: 3s...
+Jun  7 14:31:23 iMac-2 gm3310pushscan[1681]: 4s...
+Jun  7 14:31:24 iMac-2 gm3310pushscan[1681]: 5s...
+Jun  7 14:31:25 iMac-2 gm3310pushscan[1681]: 6s...
+Jun  7 14:31:26 iMac-2 gm3310pushscan[1681]: 7s...
+Jun  7 14:31:27 iMac-2 gm3310pushscan[1681]: 8s...
+Jun  7 14:31:28 iMac-2 gm3310pushscan[1681]: ScanProtocol.openSession 
+Jun  7 14:31:28 iMac-2 gm3310pushscan[1681]: PowerState Enter. (self = 0x)
+Jun  7 14:31:28 iMac-2 gm3310pushscan[1681]: Success to add async event source
+Jun  7 14:31:28 iMac-2 gm3310pushscan[1681]: PushScanner before mvStartMonitoringPushEvent()
+Jun  7 14:31:28 iMac-2 gm3310pushscan[1681]: startMonitoringPushEvent enter!
+Jun  7 14:31:28 iMac-2 gm3310pushscan[1681]: Begin to launch the inttrupt moniter thread!
+Jun  7 14:31:34 iMac-2 USBMonitor-GM3310[1819]: -[USBMonitorAppDelegate _startListeningUSBDevices]
+Jun  7 14:31:34 iMac-2 USBMonitor-GM3310[1819]: DeviceAttach
+Jun  7 14:31:34 iMac-2 USBMonitor-GM3310[1819]: argumentsArray:(
+	    ca30,
+	    232b,
+	    14400000
+	)
+Jun  7 14:31:34 iMac-2 USBMonitor-GM3310[1819]: monitor a  pushscanner in/Library/Printers/GG IMAGE/Agents/gm3310pushscan.app
+Jun  7 14:31:34 iMac-2 gm3310pushscan[1826]: argc = 4
+Jun  7 14:31:34 iMac-2 gm3310pushscan[1826]: argv[1] = 0xbf477d0b argv[2] = 0xbf477d10, argv[3] = 0xbf477d15
+Jun  7 14:31:34 iMac-2 gm3310pushscan[1826]: _usbProductID = 0xca30 _usbVendorID = 0x232b, _usbLocationID = 0x14400000
+Jun  7 14:31:34 iMac-2 gm3310pushscan[1826]: -[PushScanner _startListeningUSBDevices]
+Jun  7 14:31:34 iMac-2 gm3310pushscan[1826]: enter OpenUSBDevice
+Jun  7 14:31:34 iMac-2 gm3310pushscan[1826]: deviceURI:usb://232b/ca30/14400000/SCAN
+Jun  7 14:31:34 iMac-2 gm3310pushscan[1826]: ScanProtocol.openSession 
+Jun  7 14:31:34 iMac-2 gm3310pushscan[1826]: PowerState Enter. (self = 0x)
+Jun  7 14:31:34 iMac-2 gm3310pushscan[1826]: PushScanner before mvStartMonitoringPushEvent()
+Jun  7 14:31:34 iMac-2 gm3310pushscan[1826]: startMonitoringPushEvent enter!
+Jun  7 14:31:34 iMac-2 gm3310pushscan[1826]: startMonitoringPushEvent there is no interrupt EP in this device!
+Jun  7 14:31:34 iMac-2 gm3310pushscan[1826]: openUSBDevce failed err  -9902
+Jun  7 14:31:34 iMac-2 gm3310pushscan[1826]: applicationShouldTerminate - NSTerminateNow
+Jun  7 14:34:19 iMac-2 gm3310ica[1890]: Version: 1.0.0
+Jun  7 14:34:20 iMac-2 gm3310ica[1890]: gaga
+Jun  7 14:34:20 iMac-2 gm3310ica[1890]: --> _ICD_ScannerOpenUSBDevice
+Jun  7 14:34:20 iMac-2 gm3310ica[1890]: ---> USBProductNameByLocationID 14400000
+Jun  7 14:34:20 iMac-2 gm3310ica[1890]:     locationID: 335544320 usbProductName: AppleUSBXHCI Root Hub Simulation
+Jun  7 14:34:20 iMac-2 gm3310ica[1890]:     locationID: 341835776 usbProductName: FaceTime HD Camera (Built-in)
+Jun  7 14:34:20 iMac-2 gm3310ica[1890]:     locationID: 339738624 usbProductName: GM3310DW series
+Jun  7 14:34:20 iMac-2 gm3310ica[1890]: <--- USBProductNameByLocationID returned GM3310DW series
+Jun  7 14:34:20 iMac-2 gm3310ica[1890]:     current USB scanner name: GM3310DW series
+Jun  7 14:34:20 iMac-2 gm3310ica[1890]: propertyNum = 3
+Jun  7 14:34:20 iMac-2 gm3310ica[1890]: enter OpenUSBDevice
+Jun  7 14:34:20 iMac-2 gm3310ica[1890]: NSAppKitVersionNumber =2299.600000, kIOUSBDeviceClass = IOUSBHostDevice
+Jun  7 14:34:20 iMac-2 gm3310ica[1890]: *************myPID(1890) != clientPID(1681)
+Jun  7 14:34:20 iMac-2 gm3310pushscan[1681]: applicationShouldTerminate - NSTerminateNow
+Jun  7 14:34:21 iMac-2 gm3310ica[1890]: runningApp:@
+Jun  7 14:34:21 iMac-2 gm3310ica[1890]: deviceURI:usb://232b/ca30/14400000/SCAN
+Jun  7 14:34:21 --- last message repeated 1 time ---
+Jun  7 14:34:21 iMac-2 gm3310ica[1890]: ScanProtocol.openSession 
+Jun  7 14:34:21 iMac-2 gm3310ica[1890]: PowerState Enter. (self = 0x)
+Jun  7 14:34:21 iMac-2 gm3310ica[1890]: Success to add async event source
+Jun  7 14:34:21 iMac-2 gm3310ica[1890]: PantumScanner before mvStartMonitoringPushEvent()
+Jun  7 14:34:21 iMac-2 gm3310ica[1890]: startMonitoringPushEvent enter!
+Jun  7 14:34:21 iMac-2 gm3310ica[1890]: Begin to launch the inttrupt moniter thread!
+Jun  7 14:34:21 iMac-2 gm3310ica[1890]: <-- _ICD_ScannerOpenUSBDevice
+Jun  7 14:34:21 iMac-2 gm3310ica[1890]: --> _ICD_ScannerAddPropertiesToCFDictionary
+Jun  7 14:34:21 iMac-2 gm3310ica[1890]: <-- _ICD_ScannerAddPropertiesToCFDictionary
+Jun  7 14:34:21 iMac-2 gm3310ica[1890]: --> _ICD_ScannerGetObjectInfo
+Jun  7 14:34:21 iMac-2 gm3310ica[1890]: --> _ICD_ScannerOpenSession
+Jun  7 14:34:21 iMac-2 gm3310ica[1890]: <-- _ICD_ScannerOpenSession
+Jun  7 14:34:21 iMac-2 gm3310ica[1890]: --> _ICD_ScannerAddPropertiesToCFDictionary
+Jun  7 14:34:21 iMac-2 gm3310ica[1890]:     addPropertiesToDictionary: self.name = GM3310DW series
+Jun  7 14:34:21 iMac-2 gm3310ica[1890]: <-- _ICD_ScannerAddPropertiesToCFDictionary
+Jun  7 14:34:21 iMac-2 gm3310ica[1890]: --> _ICD_ScannerGetParameters
+Jun  7 14:34:21 iMac-2 gm3310ica[1890]: Parameters Sent:{
+	    "CAP_AUTOFEED" =     {
+	        type = "TWON_ONEVALUE";
+	        value = 1;
+	    };
+	    "CAP_DUPLEX" =     {
+	        type = "TWON_ONEVALUE";
+	        value = 2;
+	    };
+	    "CAP_DUPLEXENABLED" =     {
+	        type = "TWON_ONEVALUE";
+	        value = 0;
+	    };
+	    "CAP_FEEDERENABLED" =     {
+	        type = "TWON_ONEVALUE";
+	        value = 0;
+	    };
+	    "ICAP_BITDEPTH" =     {
+	        current = 1;
+	        default = 1;
+	        type = "TWON_ENUMERATION";
+	        value =         (
+	            1,
+	            8
+	        );
+	    };
+	    "ICAP_PHYSICALHEIGHT" =     {
+	        type = "TWON_ONEVALUE";
+	        value = 1754;
+	    };
+	    "ICAP_PHYSICALWIDTH" =     {
+	        type = "TWON_ONEVALUE";
+	        value = 1280;
+	    };
+	    "ICAP_SUPPORTEDSIZES" =     {
+	        current = 1;
+	        default = 1;
+	        type = "TWON_ENUMERATION";
+	        value =         (
+	            1,
+	            5,
+	            2,
+	            3
+	        );
+	    };
+	    "ICAP_THRESHOLD" =     {
+	        current = 127;
+	        default = 127;
+	        max = 255;
+	        min = 0;
+	        stepSize = 1;
+	        type = "TWON_RANGE";
+	    };
+	    "ICAP_UNITS" =     {
+	        current = 2;
+	        default = 0;
+	        type = "TWON_ENUMERATION";
+	        value =         (
+	            0,
+	            1,
+	            5
+	        );
+	    };
+	    "ICAP_XNATIVERESOLUTION" =     {
+	        type = "TWON_ONEVALUE";
+	        value = 150;
+	    };
+	    "ICAP_XRESOLUTION" =     {
+	        current = 2;
+	        default = 2;
+	        type = "TWON_ENUMERATION";
+	        value =         (
+	            75,
+	            150,
+	            300,
+	            600,
+	            1200
+	        );
+	    };
+	    "ICAP_XSCALING" =     {
+	        current = 1;
+	        default = 1;
+	        max = 4;
+	        min = "0.25";
+	        stepSize = "0.01";
+	        type = "TWON_RANGE";
+	    };
+	    "ICAP_YNATIVERESOLUTION" =     {
+	        type = "TWON_ONEVALUE";
+	        value = 150;
+	    };
+	    "ICAP_YRESOLUTION" =     {
+	        current = 2;
+	        default = 2;
+	        type = "TWON_ENUMERATION";
+	        value =         (
+	            75,
+	            150,
+	            300,
+	            600,
+	            1200
+	        );
+	    };
+	    "ICAP_YSCALING" =     {
+	        current = 1;
+	        default = 1;
+	        max = 4;
+	        min = "0.25";
+	        stepSize = "0.01";
+	        type = "TWON_RANGE";
+	    };
+	    functionalUnits =     {
+	        availableFunctionalUnitTypes =         (
+	            0,
+	            3
+	        );
+	        selectedFunctionalUnitType = 0;
+	    };
+	}
+Jun  7 14:34:21 iMac-2 gm3310ica[1890]: <-- _ICD_ScannerGetParameters
+Jun  7 14:34:21 iMac-2 gm3310ica[1890]: --> _ICD_ScannerSetParameters
+Jun  7 14:34:21 iMac-2 gm3310ica[1890]: Scan Parameters Passed In:{
+	    userScanArea =     {
+	        selectedFunctionalUnitType = 3;
+	    };
+	}
+Jun  7 14:34:21 iMac-2 gm3310ica[1890]:     Changing Functional Unit
+Jun  7 14:34:21 iMac-2 gm3310ica[1890]: <-- _ICD_ScannerSetParameters
+Jun  7 14:34:21 iMac-2 gm3310ica[1890]: --> _ICD_ScannerGetParameters
+Jun  7 14:34:21 iMac-2 gm3310ica[1890]: Parameters Sent:{
+	    "CAP_AUTOFEED" =     {
+	        type = "TWON_ONEVALUE";
+	        value = 1;
+	    };
+	    "CAP_DUPLEX" =     {
+	        type = "TWON_ONEVALUE";
+	        value = 2;
+	    };
+	    "CAP_FEEDERENABLED" =     {
+	        type = "TWON_ONEVALUE";
+	        value = 0;
+	    };
+	    "ICAP_BITDEPTH" =     {
+	        current = 1;
+	        default = 1;
+	        type = "TWON_ENUMERATION";
+	        value =         (
+	            1,
+	            8
+	        );
+	    };
+	    "ICAP_PHYSICALHEIGHT" =     {
+	        type = "TWON_ONEVALUE";
+	        value = 1754;
+	    };
+	    "ICAP_PHYSICALWIDTH" =     {
+	        type = "TWON_ONEVALUE";
+	        value = 1280;
+	    };
+	    "ICAP_SUPPORTEDSIZES" =     {
+	        current = 0;
+	        default = 0;
+	        type = "TWON_ENUMERATION";
+	        value =         (
+	            1,
+	            5,
+	            2,
+	            3,
+	            4,
+	            13
+	        );
+	    };
+	    "ICAP_THRESHOLD" =     {
+	        current = 127;
+	        default = 127;
+	        max = 255;
+	        min = 0;
+	        stepSize = 1;
+	        type = "TWON_RANGE";
+	    };
+	    "ICAP_UNITS" =     {
+	        current = 2;
+	        default = 2;
+	        type = "TWON_ENUMERATION";
+	        value =         (
+	            0,
+	            1,
+	            5
+	        );
+	    };
+	    "ICAP_XNATIVERESOLUTION" =     {
+	        type = "TWON_ONEVALUE";
+	        value = 150;
+	    };
+	    "ICAP_XRESOLUTION" =     {
+	        current = 2;
+	        default = 2;
+	        type = "TWON_ENUMERATION";
+	        value =         (
+	            75,
+	            150,
+	            300,
+	            600
+	        );
+	    };
+	    "ICAP_XSCALING" =     {
+	        current = 1;
+	        default = 1;
+	        max = 4;
+	        min = "0.25";
+	        stepSize = "0.01";
+	        type = "TWON_RANGE";
+	    };
+	    "ICAP_YNATIVERESOLUTION" =     {
+	        type = "TWON_ONEVALUE";
+	        value = 150;
+	    };
+	    "ICAP_YRESOLUTION" =     {
+	        current = 2;
+	        default = 2;
+	        type = "TWON_ENUMERATION";
+	        value =         (
+	            75,
+	            150,
+	            300,
+	            600
+	        );
+	    };
+	    "ICAP_YSCALING" =     {
+	        current = 1;
+	        default = 1;
+	        max = 4;
+	        min = "0.25";
+	        stepSize = "0.01";
+	        type = "TWON_RANGE";
+	    };
+	    functionalUnits =     {
+	        availableFunctionalUnitTypes =         (
+	            0,
+	            3
+	        );
+	        selectedFunctionalUnitType = 3;
+	    };
+	}
+Jun  7 14:34:21 iMac-2 gm3310ica[1890]: <-- _ICD_ScannerGetParameters
+Jun  7 14:35:05 iMac-2 gm3310ica[1890]: --> _ICD_ScannerSendMessage
+Jun  7 14:35:05 iMac-2 gm3310ica[1890]:     _ICD_ScannerSendMessage error -50 occured.
+Jun  7 14:35:05 iMac-2 gm3310ica[1890]: <-- _ICD_ScannerSendMessage
+Jun  7 14:35:05 iMac-2 gm3310ica[1890]: --> _ICD_ScannerCloseDevice
+Jun  7 14:35:05 iMac-2 gm3310ica[1890]: ScanProtocol.closeSession 
+Jun  7 14:35:05 iMac-2 gm3310ica[1890]: mapIOReturn IO Error 0xE00002EB
+Jun  7 14:35:05 --- last message repeated 1 time ---
+Jun  7 14:35:05 iMac-2 gm3310ica[1890]: (*mInterface)->ClearPipeStallBothEnds(mInterface, mInterruptPipe)
+Jun  7 14:35:05 iMac-2 gm3310ica[1890]: read Interrupt FAILED bytesRead= 0
+Jun  7 14:35:05 iMac-2 gm3310ica[1890]: PowerState Exit (self = 0x)
+Jun  7 14:35:06 iMac-2 gm3310ica[1890]: ScanProtocol.closeDeviceInterface 
+Jun  7 14:35:06 iMac-2 gm3310ica[1890]: <-- _ICD_ScannerCloseDevice
+Jun  7 14:35:06 iMac-2 gm3310ica[1890]: MacPushScan appPath:/Library/Printers/GG IMAGE/Agents/gm3310pushscan.app
+Jun  7 14:35:06 iMac-2 gm3310ica[1890]: applicationShouldTerminate - NSTerminateNow
+Jun  7 14:35:06 iMac-2 gm3310pushscan[1907]: argc = 4
+Jun  7 14:35:06 iMac-2 gm3310pushscan[1907]: argv[1] = 0xb7368d0b argv[2] = 0xb7368d10, argv[3] = 0xb7368d15
+Jun  7 14:35:06 iMac-2 gm3310pushscan[1907]: _usbProductID = 0xca30 _usbVendorID = 0x232b, _usbLocationID = 0x14400000
+Jun  7 14:35:06 iMac-2 gm3310pushscan[1907]: -[PushScanner _startListeningUSBDevices]
+Jun  7 14:35:06 iMac-2 gm3310pushscan[1907]: enter OpenUSBDevice
+Jun  7 14:35:06 iMac-2 gm3310pushscan[1907]: deviceURI:usb://232b/ca30/14400000/SCAN
+Jun  7 14:35:06 iMac-2 gm3310pushscan[1907]: ScanProtocol.openSession 
+Jun  7 14:35:06 iMac-2 gm3310pushscan[1907]: PowerState Enter. (self = 0x)
+Jun  7 14:35:06 iMac-2 gm3310pushscan[1907]: Success to add async event source
+Jun  7 14:35:06 iMac-2 gm3310pushscan[1907]: PushScanner before mvStartMonitoringPushEvent()
+Jun  7 14:35:06 iMac-2 gm3310pushscan[1907]: startMonitoringPushEvent enter!
+Jun  7 14:35:06 iMac-2 gm3310pushscan[1907]: Begin to launch the inttrupt moniter thread!
+Jun  7 14:35:15 iMac-2 gm3310ica[1915]: Version: 1.0.0
+Jun  7 14:35:15 iMac-2 gm3310ica[1915]: gaga
+Jun  7 14:35:15 iMac-2 gm3310ica[1915]: --> _ICD_ScannerOpenUSBDevice
+Jun  7 14:35:15 iMac-2 gm3310ica[1915]: ---> USBProductNameByLocationID 14400000
+Jun  7 14:35:15 iMac-2 gm3310ica[1915]:     locationID: 335544320 usbProductName: AppleUSBXHCI Root Hub Simulation
+Jun  7 14:35:15 iMac-2 gm3310ica[1915]:     locationID: 341835776 usbProductName: FaceTime HD Camera (Built-in)
+Jun  7 14:35:15 iMac-2 gm3310ica[1915]:     locationID: 339738624 usbProductName: GM3310DW series
+Jun  7 14:35:15 iMac-2 gm3310ica[1915]: <--- USBProductNameByLocationID returned GM3310DW series
+Jun  7 14:35:15 iMac-2 gm3310ica[1915]:     current USB scanner name: GM3310DW series
+Jun  7 14:35:15 iMac-2 gm3310ica[1915]: propertyNum = 3
+Jun  7 14:35:15 iMac-2 gm3310ica[1915]: enter OpenUSBDevice
+Jun  7 14:35:15 iMac-2 gm3310ica[1915]: NSAppKitVersionNumber =2299.600000, kIOUSBDeviceClass = IOUSBHostDevice
+Jun  7 14:35:15 iMac-2 gm3310ica[1915]: *************myPID(1915) != clientPID(1907)
+Jun  7 14:35:15 iMac-2 gm3310pushscan[1907]: applicationShouldTerminate - NSTerminateNow
+Jun  7 14:35:16 iMac-2 gm3310ica[1915]: runningApp:@
+Jun  7 14:35:16 iMac-2 gm3310ica[1915]: deviceURI:usb://232b/ca30/14400000/SCAN
+Jun  7 14:35:16 --- last message repeated 1 time ---
+Jun  7 14:35:16 iMac-2 gm3310ica[1915]: ScanProtocol.openSession 
+Jun  7 14:35:16 iMac-2 gm3310ica[1915]: PowerState Enter. (self = 0x)
+Jun  7 14:35:16 iMac-2 gm3310ica[1915]: Success to add async event source
+Jun  7 14:35:16 iMac-2 gm3310ica[1915]: PantumScanner before mvStartMonitoringPushEvent()
+Jun  7 14:35:16 iMac-2 gm3310ica[1915]: startMonitoringPushEvent enter!
+Jun  7 14:35:16 iMac-2 gm3310ica[1915]: Begin to launch the inttrupt moniter thread!
+Jun  7 14:35:16 iMac-2 gm3310ica[1915]: <-- _ICD_ScannerOpenUSBDevice
+Jun  7 14:35:16 iMac-2 gm3310ica[1915]: --> _ICD_ScannerAddPropertiesToCFDictionary
+Jun  7 14:35:16 iMac-2 gm3310ica[1915]: <-- _ICD_ScannerAddPropertiesToCFDictionary
+Jun  7 14:35:16 iMac-2 gm3310ica[1915]: --> _ICD_ScannerGetObjectInfo
+Jun  7 14:35:16 iMac-2 gm3310ica[1915]: --> _ICD_ScannerOpenSession
+Jun  7 14:35:16 iMac-2 gm3310ica[1915]: <-- _ICD_ScannerOpenSession
+Jun  7 14:35:16 iMac-2 gm3310ica[1915]: --> _ICD_ScannerAddPropertiesToCFDictionary
+Jun  7 14:35:16 iMac-2 gm3310ica[1915]:     addPropertiesToDictionary: self.name = GM3310DW series
+Jun  7 14:35:16 iMac-2 gm3310ica[1915]: <-- _ICD_ScannerAddPropertiesToCFDictionary
+Jun  7 14:35:16 iMac-2 gm3310ica[1915]: --> _ICD_ScannerGetParameters
+Jun  7 14:35:16 iMac-2 gm3310ica[1915]: Parameters Sent:{
+	    "CAP_AUTOFEED" =     {
+	        type = "TWON_ONEVALUE";
+	        value = 1;
+	    };
+	    "CAP_DUPLEX" =     {
+	        type = "TWON_ONEVALUE";
+	        value = 2;
+	    };
+	    "CAP_DUPLEXENABLED" =     {
+	        type = "TWON_ONEVALUE";
+	        value = 0;
+	    };
+	    "CAP_FEEDERENABLED" =     {
+	        type = "TWON_ONEVALUE";
+	        value = 0;
+	    };
+	    "ICAP_BITDEPTH" =     {
+	        current = 1;
+	        default = 1;
+	        type = "TWON_ENUMERATION";
+	        value =         (
+	            1,
+	            8
+	        );
+	    };
+	    "ICAP_PHYSICALHEIGHT" =     {
+	        type = "TWON_ONEVALUE";
+	        value = 1754;
+	    };
+	    "ICAP_PHYSICALWIDTH" =     {
+	        type = "TWON_ONEVALUE";
+	        value = 1280;
+	    };
+	    "ICAP_SUPPORTEDSIZES" =     {
+	        current = 1;
+	        default = 1;
+	        type = "TWON_ENUMERATION";
+	        value =         (
+	            1,
+	            5,
+	            2,
+	            3
+	        );
+	    };
+	    "ICAP_THRESHOLD" =     {
+	        current = 127;
+	        default = 127;
+	        max = 255;
+	        min = 0;
+	        stepSize = 1;
+	        type = "TWON_RANGE";
+	    };
+	    "ICAP_UNITS" =     {
+	        current = 2;
+	        default = 0;
+	        type = "TWON_ENUMERATION";
+	        value =         (
+	            0,
+	            1,
+	            5
+	        );
+	    };
+	    "ICAP_XNATIVERESOLUTION" =     {
+	        type = "TWON_ONEVALUE";
+	        value = 150;
+	    };
+	    "ICAP_XRESOLUTION" =     {
+	        current = 2;
+	        default = 2;
+	        type = "TWON_ENUMERATION";
+	        value =         (
+	            75,
+	            150,
+	            300,
+	            600,
+	            1200
+	        );
+	    };
+	    "ICAP_XSCALING" =     {
+	        current = 1;
+	        default = 1;
+	        max = 4;
+	        min = "0.25";
+	        stepSize = "0.01";
+	        type = "TWON_RANGE";
+	    };
+	    "ICAP_YNATIVERESOLUTION" =     {
+	        type = "TWON_ONEVALUE";
+	        value = 150;
+	    };
+	    "ICAP_YRESOLUTION" =     {
+	        current = 2;
+	        default = 2;
+	        type = "TWON_ENUMERATION";
+	        value =         (
+	            75,
+	            150,
+	            300,
+	            600,
+	            1200
+	        );
+	    };
+	    "ICAP_YSCALING" =     {
+	        current = 1;
+	        default = 1;
+	        max = 4;
+	        min = "0.25";
+	        stepSize = "0.01";
+	        type = "TWON_RANGE";
+	    };
+	    functionalUnits =     {
+	        availableFunctionalUnitTypes =         (
+	            0,
+	            3
+	        );
+	        selectedFunctionalUnitType = 0;
+	    };
+	}
+Jun  7 14:35:16 iMac-2 gm3310ica[1915]: <-- _ICD_ScannerGetParameters
+Jun  7 14:35:17 iMac-2 gm3310ica[1915]: --> _ICD_ScannerSetParameters
+Jun  7 14:35:17 iMac-2 gm3310ica[1915]: Scan Parameters Passed In:{
+	    userScanArea =     {
+	        selectedFunctionalUnitType = 3;
+	    };
+	}
+Jun  7 14:35:17 iMac-2 gm3310ica[1915]:     Changing Functional Unit
+Jun  7 14:35:17 iMac-2 gm3310ica[1915]: <-- _ICD_ScannerSetParameters
+Jun  7 14:35:17 iMac-2 gm3310ica[1915]: --> _ICD_ScannerGetParameters
+Jun  7 14:35:17 iMac-2 gm3310ica[1915]: Parameters Sent:{
+	    "CAP_AUTOFEED" =     {
+	        type = "TWON_ONEVALUE";
+	        value = 1;
+	    };
+	    "CAP_DUPLEX" =     {
+	        type = "TWON_ONEVALUE";
+	        value = 2;
+	    };
+	    "CAP_FEEDERENABLED" =     {
+	        type = "TWON_ONEVALUE";
+	        value = 0;
+	    };
+	    "ICAP_BITDEPTH" =     {
+	        current = 1;
+	        default = 1;
+	        type = "TWON_ENUMERATION";
+	        value =         (
+	            1,
+	            8
+	        );
+	    };
+	    "ICAP_PHYSICALHEIGHT" =     {
+	        type = "TWON_ONEVALUE";
+	        value = 1754;
+	    };
+	    "ICAP_PHYSICALWIDTH" =     {
+	        type = "TWON_ONEVALUE";
+	        value = 1280;
+	    };
+	    "ICAP_SUPPORTEDSIZES" =     {
+	        current = 0;
+	        default = 0;
+	        type = "TWON_ENUMERATION";
+	        value =         (
+	            1,
+	            5,
+	            2,
+	            3,
+	            4,
+	            13
+	        );
+	    };
+	    "ICAP_THRESHOLD" =     {
+	        current = 127;
+	        default = 127;
+	        max = 255;
+	        min = 0;
+	        stepSize = 1;
+	        type = "TWON_RANGE";
+	    };
+	    "ICAP_UNITS" =     {
+	        current = 2;
+	        default = 2;
+	        type = "TWON_ENUMERATION";
+	        value =         (
+	            0,
+	            1,
+	            5
+	        );
+	    };
+	    "ICAP_XNATIVERESOLUTION" =     {
+	        type = "TWON_ONEVALUE";
+	        value = 150;
+	    };
+	    "ICAP_XRESOLUTION" =     {
+	        current = 2;
+	        default = 2;
+	        type = "TWON_ENUMERATION";
+	        value =         (
+	            75,
+	            150,
+	            300,
+	            600
+	        );
+	    };
+	    "ICAP_XSCALING" =     {
+	        current = 1;
+	        default = 1;
+	        max = 4;
+	        min = "0.25";
+	        stepSize = "0.01";
+	        type = "TWON_RANGE";
+	    };
+	    "ICAP_YNATIVERESOLUTION" =     {
+	        type = "TWON_ONEVALUE";
+	        value = 150;
+	    };
+	    "ICAP_YRESOLUTION" =     {
+	        current = 2;
+	        default = 2;
+	        type = "TWON_ENUMERATION";
+	        value =         (
+	            75,
+	            150,
+	            300,
+	            600
+	        );
+	    };
+	    "ICAP_YSCALING" =     {
+	        current = 1;
+	        default = 1;
+	        max = 4;
+	        min = "0.25";
+	        stepSize = "0.01";
+	        type = "TWON_RANGE";
+	    };
+	    functionalUnits =     {
+	        availableFunctionalUnitTypes =         (
+	            0,
+	            3
+	        );
+	        selectedFunctionalUnitType = 3;
+	    };
+	}
+Jun  7 14:35:17 iMac-2 gm3310ica[1915]: <-- _ICD_ScannerGetParameters
+Jun  7 14:35:52 iMac-2 gm3310ica[1915]: --> _ICD_ScannerSendMessage
+Jun  7 14:35:52 iMac-2 gm3310ica[1915]:     _ICD_ScannerSendMessage error -50 occured.
+Jun  7 14:35:52 iMac-2 gm3310ica[1915]: <-- _ICD_ScannerSendMessage
+Jun  7 14:35:52 iMac-2 gm3310ica[1915]: --> _ICD_ScannerCloseDevice
+Jun  7 14:35:52 iMac-2 gm3310ica[1915]: ScanProtocol.closeSession 
+Jun  7 14:35:52 iMac-2 gm3310ica[1915]: mapIOReturn IO Error 0xE00002EB
+Jun  7 14:35:52 --- last message repeated 1 time ---
+Jun  7 14:35:52 iMac-2 gm3310ica[1915]: (*mInterface)->ClearPipeStallBothEnds(mInterface, mInterruptPipe)
+Jun  7 14:35:52 iMac-2 gm3310ica[1915]: read Interrupt FAILED bytesRead= 0
+Jun  7 14:35:53 iMac-2 gm3310ica[1915]: PowerState Exit (self = 0x)
+Jun  7 14:35:53 iMac-2 gm3310ica[1915]: ScanProtocol.closeDeviceInterface 
+Jun  7 14:35:53 iMac-2 gm3310ica[1915]: <-- _ICD_ScannerCloseDevice
+Jun  7 14:35:54 iMac-2 gm3310ica[1915]: MacPushScan appPath:/Library/Printers/GG IMAGE/Agents/gm3310pushscan.app
+Jun  7 14:35:54 iMac-2 gm3310ica[1915]: applicationShouldTerminate - NSTerminateNow
+Jun  7 14:35:54 iMac-2 gm3310pushscan[1927]: argc = 4
+Jun  7 14:35:54 iMac-2 gm3310pushscan[1927]: argv[1] = 0xb94a1d0b argv[2] = 0xb94a1d10, argv[3] = 0xb94a1d15
+Jun  7 14:35:54 iMac-2 gm3310pushscan[1927]: _usbProductID = 0xca30 _usbVendorID = 0x232b, _usbLocationID = 0x14400000
+Jun  7 14:35:54 iMac-2 gm3310pushscan[1927]: -[PushScanner _startListeningUSBDevices]
+Jun  7 14:35:54 iMac-2 gm3310pushscan[1927]: enter OpenUSBDevice
+Jun  7 14:35:54 iMac-2 gm3310pushscan[1927]: deviceURI:usb://232b/ca30/14400000/SCAN
+Jun  7 14:35:54 iMac-2 gm3310pushscan[1927]: ScanProtocol.openSession 
+Jun  7 14:35:54 iMac-2 gm3310pushscan[1927]: PowerState Enter. (self = 0x)
+Jun  7 14:35:54 iMac-2 gm3310pushscan[1927]: Success to add async event source
+Jun  7 14:35:54 iMac-2 gm3310pushscan[1927]: PushScanner before mvStartMonitoringPushEvent()
+Jun  7 14:35:54 iMac-2 gm3310pushscan[1927]: startMonitoringPushEvent enter!
+Jun  7 14:35:54 iMac-2 gm3310pushscan[1927]: Begin to launch the inttrupt moniter thread!
+Jun  7 14:35:54 iMac-2 gm3310ica[1930]: Version: 1.0.0
+Jun  7 14:35:55 iMac-2 gm3310ica[1930]: gaga
+Jun  7 14:35:55 iMac-2 gm3310ica[1930]: --> _ICD_ScannerOpenUSBDevice
+Jun  7 14:35:55 iMac-2 gm3310ica[1930]: ---> USBProductNameByLocationID 14400000
+Jun  7 14:35:55 iMac-2 gm3310ica[1930]:     locationID: 335544320 usbProductName: AppleUSBXHCI Root Hub Simulation
+Jun  7 14:35:55 iMac-2 gm3310ica[1930]:     locationID: 341835776 usbProductName: FaceTime HD Camera (Built-in)
+Jun  7 14:35:55 iMac-2 gm3310ica[1930]:     locationID: 339738624 usbProductName: GM3310DW series
+Jun  7 14:35:55 iMac-2 gm3310ica[1930]: <--- USBProductNameByLocationID returned GM3310DW series
+Jun  7 14:35:55 iMac-2 gm3310ica[1930]:     current USB scanner name: GM3310DW series
+Jun  7 14:35:55 iMac-2 gm3310ica[1930]: propertyNum = 3
+Jun  7 14:35:55 iMac-2 gm3310ica[1930]: enter OpenUSBDevice
+Jun  7 14:35:55 iMac-2 gm3310ica[1930]: NSAppKitVersionNumber =2299.600000, kIOUSBDeviceClass = IOUSBHostDevice
+Jun  7 14:35:55 iMac-2 gm3310ica[1930]: *************myPID(1930) != clientPID(1927)
+Jun  7 14:35:55 iMac-2 gm3310pushscan[1927]: applicationShouldTerminate - NSTerminateNow
+Jun  7 14:35:56 iMac-2 gm3310ica[1930]: runningApp:@
+Jun  7 14:35:56 iMac-2 gm3310ica[1930]: deviceURI:usb://232b/ca30/14400000/SCAN
+Jun  7 14:35:56 --- last message repeated 1 time ---
+Jun  7 14:35:56 iMac-2 gm3310ica[1930]: ScanProtocol.openSession 
+Jun  7 14:35:56 iMac-2 gm3310ica[1930]: PowerState Enter. (self = 0x)
+Jun  7 14:35:56 iMac-2 gm3310ica[1930]: Success to add async event source
+Jun  7 14:35:56 iMac-2 gm3310ica[1930]: PantumScanner before mvStartMonitoringPushEvent()
+Jun  7 14:35:56 iMac-2 gm3310ica[1930]: startMonitoringPushEvent enter!
+Jun  7 14:35:56 iMac-2 gm3310ica[1930]: Begin to launch the inttrupt moniter thread!
+Jun  7 14:35:56 iMac-2 gm3310ica[1930]: <-- _ICD_ScannerOpenUSBDevice
+Jun  7 14:35:56 iMac-2 gm3310ica[1930]: --> _ICD_ScannerAddPropertiesToCFDictionary
+Jun  7 14:35:56 iMac-2 gm3310ica[1930]: <-- _ICD_ScannerAddPropertiesToCFDictionary
+Jun  7 14:35:56 iMac-2 gm3310ica[1930]: --> _ICD_ScannerGetObjectInfo
+Jun  7 14:35:56 iMac-2 gm3310ica[1930]: --> _ICD_ScannerOpenSession
+Jun  7 14:35:56 iMac-2 gm3310ica[1930]: <-- _ICD_ScannerOpenSession
+Jun  7 14:35:56 iMac-2 gm3310ica[1930]: --> _ICD_ScannerAddPropertiesToCFDictionary
+Jun  7 14:35:56 iMac-2 gm3310ica[1930]:     addPropertiesToDictionary: self.name = GM3310DW series
+Jun  7 14:35:56 iMac-2 gm3310ica[1930]: <-- _ICD_ScannerAddPropertiesToCFDictionary
+Jun  7 14:35:56 iMac-2 gm3310ica[1930]: --> _ICD_ScannerGetParameters
+Jun  7 14:35:56 iMac-2 gm3310ica[1930]: Parameters Sent:{
+	    "CAP_AUTOFEED" =     {
+	        type = "TWON_ONEVALUE";
+	        value = 1;
+	    };
+	    "CAP_DUPLEX" =     {
+	        type = "TWON_ONEVALUE";
+	        value = 2;
+	    };
+	    "CAP_DUPLEXENABLED" =     {
+	        type = "TWON_ONEVALUE";
+	        value = 0;
+	    };
+	    "CAP_FEEDERENABLED" =     {
+	        type = "TWON_ONEVALUE";
+	        value = 0;
+	    };
+	    "ICAP_BITDEPTH" =     {
+	        current = 1;
+	        default = 1;
+	        type = "TWON_ENUMERATION";
+	        value =         (
+	            1,
+	            8
+	        );
+	    };
+	    "ICAP_PHYSICALHEIGHT" =     {
+	        type = "TWON_ONEVALUE";
+	        value = 1754;
+	    };
+	    "ICAP_PHYSICALWIDTH" =     {
+	        type = "TWON_ONEVALUE";
+	        value = 1280;
+	    };
+	    "ICAP_SUPPORTEDSIZES" =     {
+	        current = 1;
+	        default = 1;
+	        type = "TWON_ENUMERATION";
+	        value =         (
+	            1,
+	            5,
+	            2,
+	            3
+	        );
+	    };
+	    "ICAP_THRESHOLD" =     {
+	        current = 127;
+	        default = 127;
+	        max = 255;
+	        min = 0;
+	        stepSize = 1;
+	        type = "TWON_RANGE";
+	    };
+	    "ICAP_UNITS" =     {
+	        current = 2;
+	        default = 0;
+	        type = "TWON_ENUMERATION";
+	        value =         (
+	            0,
+	            1,
+	            5
+	        );
+	    };
+	    "ICAP_XNATIVERESOLUTION" =     {
+	        type = "TWON_ONEVALUE";
+	        value = 150;
+	    };
+	    "ICAP_XRESOLUTION" =     {
+	        current = 2;
+	        default = 2;
+	        type = "TWON_ENUMERATION";
+	        value =         (
+	            75,
+	            150,
+	            300,
+	            600,
+	            1200
+	        );
+	    };
+	    "ICAP_XSCALING" =     {
+	        current = 1;
+	        default = 1;
+	        max = 4;
+	        min = "0.25";
+	        stepSize = "0.01";
+	        type = "TWON_RANGE";
+	    };
+	    "ICAP_YNATIVERESOLUTION" =     {
+	        type = "TWON_ONEVALUE";
+	        value = 150;
+	    };
+	    "ICAP_YRESOLUTION" =     {
+	        current = 2;
+	        default = 2;
+	        type = "TWON_ENUMERATION";
+	        value =         (
+	            75,
+	            150,
+	            300,
+	            600,
+	            1200
+	        );
+	    };
+	    "ICAP_YSCALING" =     {
+	        current = 1;
+	        default = 1;
+	        max = 4;
+	        min = "0.25";
+	        stepSize = "0.01";
+	        type = "TWON_RANGE";
+	    };
+	    functionalUnits =     {
+	        availableFunctionalUnitTypes =         (
+	            0,
+	            3
+	        );
+	        selectedFunctionalUnitType = 0;
+	    };
+	}
+Jun  7 14:35:56 iMac-2 gm3310ica[1930]: <-- _ICD_ScannerGetParameters
+Jun  7 14:35:56 iMac-2 gm3310ica[1930]: --> _ICD_ScannerSetParameters
+Jun  7 14:35:56 iMac-2 gm3310ica[1930]: Scan Parameters Passed In:{
+	    userScanArea =     {
+	        selectedFunctionalUnitType = 3;
+	    };
+	}
+Jun  7 14:35:56 iMac-2 gm3310ica[1930]:     Changing Functional Unit
+Jun  7 14:35:56 iMac-2 gm3310ica[1930]: <-- _ICD_ScannerSetParameters
+Jun  7 14:35:56 iMac-2 gm3310ica[1930]: --> _ICD_ScannerGetParameters
+Jun  7 14:35:56 iMac-2 gm3310ica[1930]: Parameters Sent:{
+	    "CAP_AUTOFEED" =     {
+	        type = "TWON_ONEVALUE";
+	        value = 1;
+	    };
+	    "CAP_DUPLEX" =     {
+	        type = "TWON_ONEVALUE";
+	        value = 2;
+	    };
+	    "CAP_FEEDERENABLED" =     {
+	        type = "TWON_ONEVALUE";
+	        value = 0;
+	    };
+	    "ICAP_BITDEPTH" =     {
+	        current = 1;
+	        default = 1;
+	        type = "TWON_ENUMERATION";
+	        value =         (
+	            1,
+	            8
+	        );
+	    };
+	    "ICAP_PHYSICALHEIGHT" =     {
+	        type = "TWON_ONEVALUE";
+	        value = 1754;
+	    };
+	    "ICAP_PHYSICALWIDTH" =     {
+	        type = "TWON_ONEVALUE";
+	        value = 1280;
+	    };
+	    "ICAP_SUPPORTEDSIZES" =     {
+	        current = 0;
+	        default = 0;
+	        type = "TWON_ENUMERATION";
+	        value =         (
+	            1,
+	            5,
+	            2,
+	            3,
+	            4,
+	            13
+	        );
+	    };
+	    "ICAP_THRESHOLD" =     {
+	        current = 127;
+	        default = 127;
+	        max = 255;
+	        min = 0;
+	        stepSize = 1;
+	        type = "TWON_RANGE";
+	    };
+	    "ICAP_UNITS" =     {
+	        current = 2;
+	        default = 2;
+	        type = "TWON_ENUMERATION";
+	        value =         (
+	            0,
+	            1,
+	            5
+	        );
+	    };
+	    "ICAP_XNATIVERESOLUTION" =     {
+	        type = "TWON_ONEVALUE";
+	        value = 150;
+	    };
+	    "ICAP_XRESOLUTION" =     {
+	        current = 2;
+	        default = 2;
+	        type = "TWON_ENUMERATION";
+	        value =         (
+	            75,
+	            150,
+	            300,
+	            600
+	        );
+	    };
+	    "ICAP_XSCALING" =     {
+	        current = 1;
+	        default = 1;
+	        max = 4;
+	        min = "0.25";
+	        stepSize = "0.01";
+	        type = "TWON_RANGE";
+	    };
+	    "ICAP_YNATIVERESOLUTION" =     {
+	        type = "TWON_ONEVALUE";
+	        value = 150;
+	    };
+	    "ICAP_YRESOLUTION" =     {
+	        current = 2;
+	        default = 2;
+	        type = "TWON_ENUMERATION";
+	        value =         (
+	            75,
+	            150,
+	            300,
+	            600
+	        );
+	    };
+	    "ICAP_YSCALING" =     {
+	        current = 1;
+	        default = 1;
+	        max = 4;
+	        min = "0.25";
+	        stepSize = "0.01";
+	        type = "TWON_RANGE";
+	    };
+	    functionalUnits =     {
+	        availableFunctionalUnitTypes =         (
+	            0,
+	            3
+	        );
+	        selectedFunctionalUnitType = 3;
+	    };
+	}
+Jun  7 14:35:56 iMac-2 gm3310ica[1930]: <-- _ICD_ScannerGetParameters

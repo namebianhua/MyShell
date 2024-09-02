@@ -16,8 +16,16 @@ DPATH="/home/zyf/dev/sudoku-master/build/tmp"
 DSRCPATH="/Users/gzsw/workspace/zyf/andy/WebHelp"
 
 #cp -rf "$SPATH" "$DPATH"
+#echo "Before: "
 #cd $SPATH/$lan.lproj/WebHelp/
 
+file="$1";
+shift
+format="$1"
+
+
+#sed -i '' 's/[\r]*$//' "$file" > "${file}.tmp"
+#echo "Before:"
 # 读取文件内容
 while IFS='|' read -r lan before after;
 do
@@ -30,17 +38,36 @@ do
     else
         echo "folder do not exists "
     fi
-    cd $SPATH/$lan.lproj/WebHelp/
+    #if [ $format -eq "htm"]; then
+        #替换帮助文档字串
+        #cd $SPATH/$lan.lproj/WebHelp/
+    #else
+        #替换UI字串
+        #cd $SPATH/$lan.lproj/
+    #fi
+    case $format in
+        "htm")
+            cd $SPATH/$lan.lproj/WebHelp/
+            echo "format 为 htm"
+            ;;
+        "strings")
+            cd $SPATH/$lan.lproj/
+            echo "format 为 strings"
+            ;;
+        *)
+            echo "format 为 other"
+        ;;
+    esac
     pwd
-    htms=`ls *.htm`
+    htms=`ls *.$format`
     #替换所有该文件后缀文件中的字串
     for htm in $htms
     do
 	    sed -i '' "s#$before#$after#g" $htm
     done
     echo "$after complete"
-    #cd -
+    cd -
     #cd $DPATH 
-done < "$1"
+done < "${file}"
 cd  $SPATH
 echo "------replace string success------"
