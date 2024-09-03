@@ -68,7 +68,7 @@ do
     #替换所有该文件后缀文件中的字串
     for htm in $htms
     do
-	    sed -i '' "s#$before#$after#g" $htm
+	    sed -i '' "s#$before#$after#g" $htm # ''是在mac系统独有的，在linux系统不需要
     done
     echo "$after complete"
     cd -
