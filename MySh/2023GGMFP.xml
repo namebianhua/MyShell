@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+
+<root>
+<pkgName>GG IMAGE COLOR GM2000 Series Mac Driver</pkgName>
+<project>LP-2023V1R6</project>
+<title>GG_IMAGE_GM2000_Series</title>
+<targets>
+    <target git="-b LP2023V1R6 https://git.bj.pantum.com/sn2023/mac/macprint.git">G_GGM2000Filter</target>
+    <target git="-b LP2023V1R6 https://git.bj.pantum.com/sn2023/mac/status-monitor-macosx.git">gm2000sm</target>
+    <target git="-b LP2023V1R6 https://git.bj.pantum.com/sn2023/mac/macwificonfig.git">GM2000_Series</target>
+    <target git="-b LP2023V1R6 https://git.bj.pantum.com/sn2023/mac/uninstall.git">"uninstallGM2000"</target>
+    <target git="-b lp-2023 https://git2.pantum.com/share/macos-driver/scanmanager.git">"Express Scan Manager-GM2000"</target>
+    <target git="-b lp-2023 https://git2.pantum.com/share/macos-driver/ica.git">"ICA-Driver-GM2000"</target>
+    <target git="-b lp-2023 https://git2.pantum.com/share/macos-driver/mactwain.git">"gm2010twn"</target>
+    <target git="-b lp-2023 https://git2.pantum.com/share/macos-driver/mactwain.git">"gm2000twn"</target>
+    <target git="-b lp-2023 https://git2.pantum.com/share/macos-driver/pushscanmonitor.git">"USBMonitor-GM2000"</target>
+    <target git="-b lp-2023 https://git2.pantum.com/share/macos-driver/pushscan-for-mac10_12.git">"MacPushScan-GM2000"</target>
+</targets>
+<easyinstall git="-b LP2023V1R6 https://git.bj.pantum.com/sn2023/mac/easyinstall.git">GM2000</easyinstall>
+</root>
